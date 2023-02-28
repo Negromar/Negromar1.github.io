@@ -1,0 +1,148 @@
+/* Fuente principal */
+body {
+    font-family: 'Roboto', sans-serif;
+			background-color: #f2f2f2;
+			margin: 100px;;
+			padding: 0;
+  }
+  
+  /* Encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #333;
+    color: #fff;
+    margin-left: auto;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 50;
+    padding: 50;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 50px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #e7e7e7;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-text h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .header-text h2 {
+    font-size: 24px;
+    color: #888;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Íconos */
+  .fa {
+    font-size: 24px;
+  }
+  
+  .fa-fw {
+    width: 25px;
+    text-align: center;
+  }
+  
+  .fa-lg {
+    font-size: 36px;
+  }
+  
+  .fa-inverse {
+    color: #fff;
+  }
+  
+  .fa-envelope-o:before {
+    content: "\f0e0";
+  }
+  
+  .fa-phone:before {
+    content: "\f095";
+  }
+  
+  .fa-map-marker:before {
+    content: "\f041";
+  }
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .redes-sociales a {
+    margin: 0 10px;
+  }
+ 
+ footer
+  .redes-sociales img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #999;
+  }
+  
